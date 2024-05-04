@@ -49,6 +49,12 @@
     cursor: pointer;
 }
 
+#first-text {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffd;
+}
+
 .content button img {
     width: 15px;
     margin-left: 10px;
@@ -66,8 +72,8 @@
 }
 
 .lunching-time p {
-    font-size: 60px;
-    margin-bottom: -14px;
+    font-size: 50px;
+    margin-bottom: -1px;
 }
 
 .rocket {
@@ -78,54 +84,55 @@
     animation: rocket 4s infinite;
 }
 
-@keyframes rocket{
-    0%{
+@keyframes rocket {
+    0% {
         bottom: 0;
         opacity: 0;
     }
-    100%{
+
+    100% {
         bottom: 105%;
         opacity: 1;
     }
 }
 
-/* Media query for screens smaller than 768px */
+
 @media (max-width: 768px) {
     .container {
-        padding: 0 5%; 
+        padding: 0 5%;
     }
 
     .logo {
-        width: 80px; 
-        padding: 10px 0; 
+        width: 80px;
+        padding: 10px 0;
     }
 
     .content h1 {
-        font-size: 36px; 
+        font-size: 36px;
     }
 
     .content button {
-        padding: 10px 20px; 
+        padding: 10px 20px;
     }
 
     .lunching-time div {
-        flex-basis: 25%; 
-        margin: 0 5px; 
+        flex-basis: 25%;
+        margin: 0 5px;
     }
 
     .lunching-time p {
-        font-size: 24px; 
-        margin-bottom: -6px; 
+        font-size: 24px;
+        margin-bottom: -6px;
     }
 
     .rocket {
-        width: 120px; 
-        right: 5%; 
+        width: 120px;
+        right: 5%;
     }
 
     @keyframes rocket {
         100% {
-            bottom: 85%; 
+            bottom: 85%;
         }
     }
 }
