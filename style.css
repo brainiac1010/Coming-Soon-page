@@ -39,9 +39,9 @@
 
 .content button {
     background: transparent;
-    border: 2px solid #ffd;
+    border: 2px solid #fff;
     padding: 12px 25px;
-    color: #ffd;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,7 +52,7 @@
 #first-text {
     font-size: 24px;
     font-weight: 600;
-    color: #ffd;
+    color: #fff;
 }
 
 .content button img {
